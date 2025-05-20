@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>appointment-book.png</file>
+        <file>plannerLogo.png</file>
+        <file>settings.png</file>
+        <file>icons8-filter-24.png</file>
+        <file>icons8-calendar-24.png</file>
+        <file>icons8-search-24.png</file>
+        <file>icons8-statistics-24.png</file>
+        <file>icons8-bar-chart-48.png</file>
+        <file>icons8-drop-down-16.png</file>
+        <file>bell.png</file>
+        <file>icons8-arrow-right-48.png</file>
+        <file>icons8-sort-left-48.png</file>
+    </qresource>
+</RCC>

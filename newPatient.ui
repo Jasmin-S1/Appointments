@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>New Patient</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(234, 234, 234);
+border-radius: 15px;</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>361</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+	padding-left: 10px;
+}</string>
+   </property>
+   <widget class="QLabel" name="nameLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Name and Surname</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nameLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 9px;</string>
+    </property>
+    <property name="cursorPosition">
+     <number>0</number>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>361</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+	padding-left: 10px;
+}</string>
+   </property>
+   <widget class="QLabel" name="yearsLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Year of Birth</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="yearsLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 9px;</string>
+    </property>
+    <property name="cursorPosition">
+     <number>0</number>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>361</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="genderLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Gender</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButtonMale">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>95</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Male</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButtonFemale">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>95</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Female</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>350</y>
+     <width>361</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="addressLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Address</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+    background-color: rgb(255, 255, 255);    /* Pozadina kada nije otvoren */
+    color: #333333;               /* Boja teksta */
+    border-radius: 5px;           /* Zaobljenost ivica */
+    padding: 5px;                 /* Unutrašnji razmak */
+    font-size: 14px;              /* Veličina fonta */
+}
+
+QComboBox:hover {
+    background-color: rgb(222, 222, 222);    /* Pozadina kada je miš iznad */
+    color: black;
+}
+
+QComboBox::drop-down {
+    border-left: 2px solid #5c5c5c; /* Ivice između dugmeta za otvaranje */
+    width: 30px;                     /* Širina dugmeta za otvaranje */
+}
+
+QComboBox::down-arrow {
+    image: url(:/icons8-drop-down-16.png);   /* Putanja do slike za strelicu nadole */
+    width: 16px;                  /* Širina strelice */
+    height: 16px;                 /* Visina strelice */
+}
+
+
+QComboBox QAbstractItemView {
+    background-color: #ffffff;    /* Pozadina padajuće liste */
+    selection-background-color: rgb(185, 185, 185);  /* Boja pozadine selektovanog elementa */
+    selection-color: rgb(39, 39, 39);     /* Boja teksta selektovanog elementa */
+    font-size: 14px;              /* Veličina fonta za stavke u padajućoj listi */
+    outline: none;
+    
+}</string>
+    </property>
+    <property name="currentText">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Odaberi Grad</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Tuzla</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Srebrenik</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Živinice</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gračanica</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gradačac</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kladanj</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sarajevo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Brčko</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Olovo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bijeljina</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zvornik</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Drugi Grad</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_5" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>460</y>
+     <width>361</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+	padding-left: 10px;
+}</string>
+   </property>
+   <widget class="QLabel" name="phoneLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Phone Number</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="phoneLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 9px;</string>
+    </property>
+    <property name="cursorPosition">
+     <number>0</number>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="saveNewPatientButton">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>570</y>
+     <width>140</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>140</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background-color: rgb(74, 213, 208);
+    color: rgb(255, 255, 255);
+    width: 115px;
+    height: 45px;
+    font-size:10pt;
+}
+
+QPushButton::pressed {
+	background-color: rgb(170, 255, 255);
+    color: rgb(132, 132, 132);
+}</string>
+   </property>
+   <property name="text">
+    <string>Save Patient</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
